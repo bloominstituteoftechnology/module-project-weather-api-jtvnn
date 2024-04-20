@@ -76,7 +76,7 @@ async function moduleProject4() {
     console.log(date);
     let dat = new Date(date)
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let dayOfWeek = days[dat.getDay()];
+    let dayOfWeek = days[dat.getDay() + 1];
     console.log(dayOfWeek);
     return dayOfWeek;
   }
